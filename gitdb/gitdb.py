@@ -9,7 +9,8 @@ from pygit2 import (
     Signature
 )
 
-from gitdb.serializers import BaseSerializer, JsonSerializer
+from gitdb.serializers.baseserializer import BaseSerializer
+from gitdb.serializers.jsonserializer import JsonSerializer
 
 
 # prepare logger

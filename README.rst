@@ -1,8 +1,8 @@
 gitdb
 =====
 
-``gitdb`` is a small Python module that allows to use a git repository as
-key-value-store. The data can be serialized by different Serializers.
+``python-gitdb`` is a small Python module that allows to use a git repository
+as key-value-store. The data can be serialized by different Serializers.
 
 
 Serializers
@@ -10,7 +10,7 @@ Serializers
 
 There are several serializers provided to store the data:
 
-    * JsonSerializer        (included without futher modules)
+    * JsonSerializer        (included without further modules)
     * BJsonSerializer
     * YamlSerializer
     * MsgPackSerializer
@@ -24,7 +24,7 @@ Setup
 
 ::
 
-    poetry install gitdb
+    poetry install python-gitdb
 
 
 Usage
@@ -33,7 +33,7 @@ Usage
 ::
 
     from gitdb import GitDb
-    from gitdb.serializers import JsonSerializer
+    from gitdb.serializers.jsonserializer import JsonSerializer
 
     # git repository that is used as database
     REPO = "/your/path/to/the/repository"

@@ -1,10 +1,13 @@
 [tool.poetry]
-name = "gitdb"
-version = "0.0.1"
+name = "python-gitdb"
+version = "0.0.3"
 description = "Simple Python module to use git as key-value database."
 authors = ["Ansgar Kellner <keans@gmx.de>"]
 license = "MIT"
-readme = "README.md"
+readme = "README.rst"
+packages = [
+    {include = "gitdb"}
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
