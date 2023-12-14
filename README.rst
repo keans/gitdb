@@ -31,6 +31,7 @@ Usage
 -----
 
 ::
+
     from gitdb import GitDb
     from gitdb.serializers import JsonSerializer
 
