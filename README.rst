@@ -4,6 +4,9 @@ gitdb
 ``python-gitdb`` is a small Python module that allows to use a git repository
 as key-value-store. The data can be serialized by different Serializers.
 
+Attention! The integration of a remote repository is rudimental, i.e., push and pull
+currently only works via soft resets.
+
 
 Serializers
 -----------

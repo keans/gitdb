@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "python-gitdb"
-version = "0.0.3"
+version = "0.0.4"
 description = "Simple Python module to use git as key-value database."
 authors = ["Ansgar Kellner <keans@gmx.de>"]
 license = "MIT"
